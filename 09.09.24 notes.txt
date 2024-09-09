@@ -1,0 +1,22 @@
+1. AUC AND ROC curve
+
+The ROC CURVE is a graphical representation utilised to evaluate the performance of a finite classification model
+TPR (True Positive Rate) = TP / (TP + FN)
+
+THE ROC CURVE shows THE trade of between true positive rate and FPR.
+A model that can perfectly distinguish between classes will have a ROC curve that passes through the top left corner.
+
+Receiver Operating characteristics
+AUC is the area under curve under ROC Curve . It provides a single value that summarises the performance of the classifier across all possible thresholds .
+
+INTERPRETATION:-
+If AUC = 1, perfect model because it is ranking all positive examples higher than other negatives. 
+If AUC = 0.5 is a model with no discriminative power
+If AUC > 0.5 and < 1, it indicates that the model can to some extent differentiate between + and - .
+  
+It provides a way to understand the probability distribution of data, showing the probability that a random variable takes a value <= certain threshold 
+F(x) 
+X takes the value less than = x 
+
+If a datset has4 features and they are high,
+
