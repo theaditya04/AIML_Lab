@@ -1,0 +1,13 @@
+absolute error
+sum of squared errors
+
+
+the sample error of the hypothesis F to target function (c) and data sample (S) is 
+True error : the true error if denoted by the error(P) of F and distribution(D) is the probability that h will is classified an instance drawn at random according to d. 
+
+Choosing the correct decision tree?
+Prefer a tree which is small in depth.,
+In order to do that , we have to devise an algorithm that will search the space of decision trees and come up with a small tree(NP-Hard problem) 
+we have to look for greedy algorithm .
+
+We can grow the tree such that every subtree has a specific value of class level or we can stop at a point where the probability of one possible class level is high 
